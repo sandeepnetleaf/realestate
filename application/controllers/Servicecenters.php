@@ -18,16 +18,13 @@ class Servicecenters extends MY_Controller {
     public function index(){
         if(!$this->loggedIn){
             redirect('login');
-        } else {
-            $this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
-            redirect($_SERVER['HTTP_REFERER']);
-        }
+        } 
         
         $this->data['pagename'] = 'Service Centers';
         //create header and footer with page_construct method and load view page plans
         $bc = array(array('link' => base_url(), 'page' => 'home', array('link' => '#', 'page' => 'servicecenters')));
         $meta = array('page_title' => 'Service Centers', 'bc' => $bc);
-        $this->page_construct('servicecenters', $meta, $this->data);
+        $this->page_construct('servicecenters/index', $meta, $this->data);
     }
     
     public function service_center_details()

@@ -19,7 +19,7 @@ class MY_Controller extends CI_Controller {
             //$meta['assets'] 	= $data['assets'];
             $this->load->view('header', $meta);
             $this->load->view('side-menu', $meta);
-            $this->load->view($this->theme . $page, $data);
+            $this->load->view($page, $data);
             $this->load->view('footer');
 	}
 }

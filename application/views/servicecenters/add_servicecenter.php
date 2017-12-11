@@ -297,7 +297,7 @@
                                             <div class="form-group">
                                                 <?php echo form_label('Status <span class="required">*</span>', 'sc_status', array('class' => 'control-label'));?>
                                                 <input type="radio" name="sc_status" class="flat" id="sc_status" value="1" checked> Active
-						<input type="radio" name="sc_status" class="flat" id="sc_status" value="2" > Inactive
+						<input type="radio" name="sc_status" class="flat" id="sc_status" value="0" > Inactive
                                             </div>
                                         </div>
 

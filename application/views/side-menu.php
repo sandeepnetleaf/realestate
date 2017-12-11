@@ -12,7 +12,7 @@
                     <!-- menu profile quick info -->
                     <div class="profile clearfix">
                         <div class="profile_pic">
-                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                            <img src="<?=base_url('images/img.jpg')?>" alt="..." class="img-circle profile_img">
                         </div>
                         <div class="profile_info">
                             <span>Welcome,</span>
@@ -56,6 +56,13 @@
                                         
                                     </ul>
                                 </li>
+                                <li><a><i class="fa fa-edit"></i> CMS <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="<?= base_url('cms'); ?>">CMS</a></li>
+                                        <li><a href="<?= base_url('cms/add_cms'); ?>">Add CMS</a></li>
+                                        
+                                    </ul>
+                                </li>
                                 <li><a><i class="fa fa-edit"></i> Service Centers <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                         <li><a href="<?= base_url('servicecenters'); ?>">Service Centers</a></li>
@@ -64,6 +71,8 @@
                                     </ul>
                                 </li>
                                 <!--
+                                
+                                
                                 <li><a><i class="fa fa-desktop"></i> Partners <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                         <li><a href="general_elements.html">Managee Partners</a></li>

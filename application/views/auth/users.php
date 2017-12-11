@@ -137,46 +137,46 @@
                     </div>
                   <?php } ?>
                   
-                  <div class="col-md-12 col-sm-12 col-xs-12">
-                  <div class="table-responsive">
-                    <button class="btn btn-default" onclick="reload_table()"><i class="glyphicon glyphicon-refresh"></i> Reload</button>
-                    <table id="userTable" class="table-bordered table-hover table-striped table">
-                        <thead>
-                        <tr>
-                            <th style="min-width:30px; width: 30px; text-align: center;">
-                                <input class="checkbox checkth" type="checkbox" name="check"/>
-                            </th>
-                            <th>first_name</th>
-                            <th class="col-xs-2">last_name</th>
-                            <th class="col-xs-2">email_address</th>
-                            <th class="col-xs-2">Mobile Number</th>
-                            <th class="col-xs-1">group</th>
-                            <th class="col-xs-1">status</th>
-                            <th class="col-xs-2">actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td colspan="8" class="dataTables_empty"><?= lang('loading_data_from_server') ?></td>
-                        </tr>
-                        </tbody>
-                        <tfoot class="dtFilter">
-                        <tr class="active">
-                            <th style="min-width:30px; width: 30px; text-align: center;">
-                                <input class="checkbox checkft" type="checkbox" name="check"/>
-                            </th>
-                            <th>first_name</th>
-                            <th class="col-xs-2">last_name</th>
-                            <th class="col-xs-2">email_address</th>
-                            <th class="col-xs-2">Mobile Number</th>
-                            <th class="col-xs-1">group</th>
-                            <th class="col-xs-1"">status</th>
-                            <th class="col-xs-2">actions</th>
-                        </tr>
-                        </tfoot>
-                    </table>
-                </div>
-              </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="table-responsive">
+                          <button class="btn btn-default" onclick="reload_table()"><i class="glyphicon glyphicon-refresh"></i> Reload</button>
+                            <table id="userTable" class="table-bordered table-hover table-striped table">
+                                <thead>
+                                    <tr>
+                                        <th style="min-width:30px; width: 30px; text-align: center;">
+                                            <input class="checkbox checkth" type="checkbox" name="check"/>
+                                        </th>
+                                        <th>first_name</th>
+                                        <th class="col-xs-2">last_name</th>
+                                        <th class="col-xs-2">email_address</th>
+                                        <th class="col-xs-2">Mobile Number</th>
+                                        <th class="col-xs-1">group</th>
+                                        <th class="col-xs-1">status</th>
+                                        <th class="col-xs-2">actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="8" class="dataTables_empty"><?= lang('loading_data_from_server') ?></td>
+                                    </tr>
+                                </tbody>
+                                <tfoot class="dtFilter">
+                                    <tr class="active">
+                                        <th style="min-width:30px; width: 30px; text-align: center;">
+                                            <input class="checkbox checkft" type="checkbox" name="check"/>
+                                        </th>
+                                        <th>first_name</th>
+                                        <th class="col-xs-2">last_name</th>
+                                        <th class="col-xs-2">email_address</th>
+                                        <th class="col-xs-2">Mobile Number</th>
+                                        <th class="col-xs-1">group</th>
+                                        <th class="col-xs-1"">status</th>
+                                        <th class="col-xs-2">actions</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
               </div>
             </div>
           </div>
